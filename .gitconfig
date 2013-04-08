@@ -1,0 +1,21 @@
+[user]
+	name = Dan Fox
+	email = dan@derbyjackpot.com
+
+[color]
+	diff = true
+	branch = true
+	interactive = true
+	status = true
+
+[push]
+	default = simple
+
+[alias]
+	l  = log --oneline
+	p  = pull --rebase
+	pp = "!git pull --rebase; git push"
+	co = checkout
+	st = status
+	di = diff
+	br = branch
