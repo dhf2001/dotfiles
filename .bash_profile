@@ -1,6 +1,7 @@
 ## Paths
 
 PATH=/usr/local/bin:$PATH # prioritize /usr/local/bin for homebrew
+PATH=$PATH:/usr/local/share/npm/bin # npm
 PATH=$PATH:~/bin
 
 
@@ -14,7 +15,7 @@ PATH=$PATH:~/bin
 # TODO: rewrite PS1 using git-prompt.bash
 export PS1="\W \[\033[31m\]\`git branch 2> /dev/null | grep -e ^* | sed -E  s/^\\\\\\\\\*\ \(.+\)$/\(\\\\\\\\\1\)\ /\`\[\033[37m\]\[\033[00m\]\u \[\e[1;93m\]🌵\[\e[m\]  "
 
-source /usr/local/Cellar/git/1.8.1/etc/bash_completion.d/git-completion.bash
+source /usr/local/etc/bash_completion.d/git-completion.bash
 
 
 ## Directory Aliases
