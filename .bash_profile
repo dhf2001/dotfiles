@@ -21,3 +21,8 @@ alias dl='cd ~/Projects/dla_builder'
 
 ## Command Aliases
 alias ls='ls -G'
+
+## Extensions
+if [ -f ~/.extra_config ]; then
+    source ~/.extra_config
+fi
